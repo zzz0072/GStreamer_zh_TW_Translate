@@ -1250,7 +1250,7 @@ msgid "Pipeline is PREROLLED ...\n"
 msgstr "Pipleline已經緩衝完畢 ...\n"
 
 msgid "Setting pipeline to PLAYING ...\n"
-msgstr "將pipeline狀態設為PLAYING...\n"i
+msgstr "將pipeline狀態設為PLAYING...\n"
 
 msgid "ERROR: pipeline doesn't want to play.\n"
 msgstr "錯誤：Pipeline 不想要播放。\n"
@@ -1277,10 +1277,10 @@ msgid "Execution ended after %"
 msgstr "在 % 之後執行結束"
 
 msgid "Setting pipeline to READY ...\n"
-msgstr "將pipeline狀態設為READY...\n"i
+msgstr "將pipeline狀態設為READY...\n"
 
 msgid "Setting pipeline to NULL ...\n"
-msgstr "將pipeline狀態設為NULL...\n"i
+msgstr "將pipeline狀態設為NULL...\n"
 
 msgid "Freeing pipeline ...\n"
 msgstr "釋放pipeline ...\n"
