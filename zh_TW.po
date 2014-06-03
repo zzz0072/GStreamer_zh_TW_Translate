@@ -44,10 +44,10 @@ msgid "Make all warnings fatal"
 msgstr "將所有警告視為嚴重錯誤"
 
 msgid "Print available debug categories and exit"
-msgstr "顯示可以偵錯的類別，然後結束"
+msgstr "顯示可以偵錯的類別，並結束"
 
 msgid "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
-msgstr "將預設偵錯等級設定為 1 (只顯示錯誤) 至 5 (任何訊息)，或者用 0 表示不顯示訊息"
+msgstr "將預設偵錯等級設定為 1 (只顯示錯誤) 至 9 (任何訊息)，或者用 0 表示不顯示訊息"
 
 msgid "LEVEL"
 msgstr "LEVEL"
