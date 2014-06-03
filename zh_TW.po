@@ -444,7 +444,7 @@ msgid "length in GStreamer time units (nanoseconds)"
 msgstr "GStreamer 時間單位（奈秒）長度"
 
 msgid "codec"
-msgstr "codec"
+msgstr ""
 
 # Wen, 怪怪的
 # 從gsttaglist.c猜測這個是前面訊息的詳細版本
