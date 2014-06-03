@@ -2,7 +2,6 @@
 # This file is put in the public domain.
 # Abel Cheung <abelcheung@gmail.com>, 2005.
 # Wen Liao <wen.cf83@gmail.com>, 2014
-
 # Terms sync-up:
 # plugin: 外掛程式
 # log: 日誌
@@ -18,7 +17,6 @@
 #           http://zh.wikipedia.org/zh-tw/%E5%9B%9E%E6%94%BE%E5%A2%9E%E7%9B%8A
 # problem: 大部分翻成錯誤
 # reference: 參照（應該有更好的名詞）
-
 # 保留原名：
 # 1. GStreamer專用元件: element, pad, caps, clock, pipeline, bin, 某些link
 # 2. 專有名詞： codec, container, beat, URI, URI scheme, TOC
@@ -30,7 +28,7 @@ msgstr ""
 "Project-Id-Version: gstreamer 0.8.8\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-05-25 16:08+0100\n"
-"PO-Revision-Date: 2014-05-28 20:35+0800\n"
+"PO-Revision-Date: 2014-06-03 16:01+0800\n"
 "Last-Translator: Wen Liao <wen.cf83@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -48,20 +46,14 @@ msgstr "將所有警告視為嚴重錯誤"
 msgid "Print available debug categories and exit"
 msgstr "顯示可以偵錯的類別，然後結束"
 
-msgid ""
-"Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
-msgstr ""
-"將預設偵錯等級設定為 1 (只顯示錯誤) 至 5 (任何訊息)，或者用 0 表示不顯示訊息"
+msgid "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
+msgstr "將預設偵錯等級設定為 1 (只顯示錯誤) 至 5 (任何訊息)，或者用 0 表示不顯示訊息"
 
 msgid "LEVEL"
 msgstr "LEVEL"
 
-msgid ""
-"Comma-separated list of category_name:level pairs to set specific levels for "
-"the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
-msgstr ""
-"各種類別和它們的詳細程度，格式是「分類:等級」，每個都以逗號隔開。例如："
-"GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgid "Comma-separated list of category_name:level pairs to set specific levels for the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgstr "各種類別和它們的詳細程度，格式是「分類:等級」，每個都以逗號隔開。例如：GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
 msgid "LIST"
 msgstr "LIST"
@@ -69,11 +61,8 @@ msgstr "LIST"
 msgid "Disable colored debugging output"
 msgstr "偵錯結果不顯示顏色"
 
-msgid ""
-"Changes coloring mode of the debug log. Possible modes: off, on, disable, "
-"auto, unix"
-msgstr ""
-"更改偵錯日誌配色模式，支援配色模式為：off, on, disable, auto, unix"
+msgid "Changes coloring mode of the debug log. Possible modes: off, on, disable, auto, unix"
+msgstr "更改偵錯日誌配色模式，支援配色模式為：off, on, disable, auto, unix"
 
 msgid "Disable debugging"
 msgstr "關閉偵錯功能"
@@ -87,12 +76,8 @@ msgstr "以分號分隔的路徑中有包含外掛程式"
 msgid "PATHS"
 msgstr "路徑"
 
-msgid ""
-"Comma-separated list of plugins to preload in addition to the list stored in "
-"environment variable GST_PLUGIN_PATH"
-msgstr ""
-"除了環境變數 GST_PLUGIN_PATH 中指定的外掛之外，再指定要載入的外掛 (以逗"
-"號分隔)"
+msgid "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH"
+msgstr "除了環境變數 GST_PLUGIN_PATH 中指定的外掛之外，再指定要載入的外掛 (以逗號分隔)"
 
 msgid "PLUGINS"
 msgstr "外掛程式"
@@ -118,19 +103,14 @@ msgstr "未知的選項"
 msgid "GStreamer encountered a general core library error."
 msgstr "GStreamer 主要函式庫發生一般性的錯誤。"
 
-msgid ""
-"GStreamer developers were too lazy to assign an error code to this error."
+msgid "GStreamer developers were too lazy to assign an error code to this error."
 msgstr "GStreamer 開發人員尚未定義這類錯誤的錯誤代碼。"
 
 msgid "Internal GStreamer error: code not implemented."
 msgstr "GStreamer 內部錯誤：未實作的功能。"
 
-msgid ""
-"GStreamer error: state change failed and some element failed to post a "
-"proper error message with the reason for the failure."
-msgstr ""
-"GStreamer錯誤： 狀態切換失敗，同時部份element在該次失敗中無法顯示相關錯誤訊息"
-
+msgid "GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure."
+msgstr "GStreamer錯誤： 狀態切換失敗，同時部份element在該次失敗中無法顯示相關錯誤訊息"
 
 msgid "Internal GStreamer error: pad problem."
 msgstr "GStreamer 內部錯誤：pad錯誤。"
@@ -159,11 +139,8 @@ msgstr "您的GStreamer缺少外掛程式。"
 msgid "GStreamer error: clock problem."
 msgstr "GStreamer 內部錯誤：時脈錯誤。"
 
-msgid ""
-"This application is trying to use GStreamer functionality that has been "
-"disabled."
-msgstr ""
-"應用程式嘗試使用已被關閉的選項內的功能"
+msgid "This application is trying to use GStreamer functionality that has been disabled."
+msgstr "應用程式嘗試使用已被關閉的選項內的功能"
 
 msgid "GStreamer encountered a general supporting library error."
 msgstr "GStreamer 輔助函式庫發生一般性的錯誤。"
@@ -256,11 +233,8 @@ msgstr "資料串流格式錯誤。"
 msgid "The stream is encrypted and decryption is not supported."
 msgstr "資料串流已加密，但是目前不支援解密。"
 
-msgid ""
-"The stream is encrypted and can't be decrypted because no suitable key has "
-"been supplied."
-msgstr ""
-"資料串流已加密，但是沒有適當的金鑰因而無法解密。"
+msgid "The stream is encrypted and can't be decrypted because no suitable key has been supplied."
+msgstr "資料串流已加密，但是沒有適當的金鑰因而無法解密。"
 
 # Wen, 怪怪的？
 #, c-format
@@ -384,11 +358,8 @@ msgstr "目前碟片編號所數的蒐集資料碟片總數"
 msgid "location"
 msgstr "位置"
 
-msgid ""
-"Origin of media as a URI (location, where the original of the file or stream "
-"is hosted)"
-msgstr ""
-"媒體的URI(檔案或是資料串流的位置)"
+msgid "Origin of media as a URI (location, where the original of the file or stream is hosted)"
+msgstr "媒體的URI(檔案或是資料串流的位置)"
 
 msgid "homepage"
 msgstr "首頁"
@@ -624,43 +595,29 @@ msgstr "以逗號分隔的關鍵字，用來描述媒體內容"
 msgid "geo location name"
 msgstr "地理位置名稱"
 
-msgid ""
-"human readable descriptive location of where the media has been recorded or "
-"produced"
-msgstr ""
-"人類可讀的媒體錄製地點資訊。"
+msgid "human readable descriptive location of where the media has been recorded or produced"
+msgstr "人類可讀的媒體錄製地點資訊。"
 
 msgid "geo location latitude"
 msgstr "地理緯度位置"
 
 # Wen, 省略規格描述部份
-msgid ""
-"geo latitude location of where the media has been recorded or produced in "
-"degrees according to WGS84 (zero at the equator, negative values for "
-"southern latitudes)"
-msgstr ""
-"媒體錄製地點緯度"
+msgid "geo latitude location of where the media has been recorded or produced in degrees according to WGS84 (zero at the equator, negative values for southern latitudes)"
+msgstr "媒體錄製地點緯度"
 
 msgid "geo location longitude"
 msgstr "地理經度位置"
 
 # Wen, 省略規格描述部份
-msgid ""
-"geo longitude location of where the media has been recorded or produced in "
-"degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  "
-"negative values for western longitudes)"
-msgstr ""
-"媒體錄製地點經度"
+msgid "geo longitude location of where the media has been recorded or produced in degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  negative values for western longitudes)"
+msgstr "媒體錄製地點經度"
 
 msgid "geo location elevation"
 msgstr "地理位置海拔"
 
 # Wen, 省略規格描述部份
-msgid ""
-"geo elevation of where the media has been recorded or produced in meters "
-"according to WGS84 (zero is average sea level)"
-msgstr ""
-"媒體錄製地點海拔"
+msgid "geo elevation of where the media has been recorded or produced in meters according to WGS84 (zero is average sea level)"
+msgstr "媒體錄製地點海拔"
 
 msgid "geo location country"
 msgstr "地理位置國家"
@@ -677,11 +634,8 @@ msgstr "以英文表示的媒體錄製城市"
 msgid "geo location sublocation"
 msgstr "地理位置城市內區域"
 
-msgid ""
-"a location within a city where the media has been produced or created (e.g. "
-"the neighborhood)"
-msgstr ""
-"媒體錄製城市內區域"
+msgid "a location within a city where the media has been produced or created (e.g. the neighborhood)"
+msgstr "媒體錄製城市內區域"
 
 msgid "geo location horizontal error"
 msgstr "地理位置水平誤差"
@@ -692,32 +646,22 @@ msgstr "預期的水平誤差（以公尺為單位）"
 msgid "geo location movement speed"
 msgstr "地理位址移動速度"
 
-msgid ""
-"movement speed of the capturing device while performing the capture in m/s"
-msgstr ""
-"錄製設備操作時的移動速度(m/s)"
+msgid "movement speed of the capturing device while performing the capture in m/s"
+msgstr "錄製設備操作時的移動速度(m/s)"
 
 msgid "geo location movement direction"
 msgstr "地理位址移動方向"
 
 # Wen, 省略規格描述部份
-msgid ""
-"indicates the movement direction of the device performing the capture of a "
-"media. It is represented as degrees in floating point representation, 0 "
-"means the geographic north, and increases clockwise"
-msgstr ""
-"錄製設備操作時的移動方向"
+msgid "indicates the movement direction of the device performing the capture of a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
+msgstr "錄製設備操作時的移動方向"
 
 msgid "geo location capture direction"
 msgstr "地理位址錄製設備方向"
 
 # Wen, 省略規格描述部份
-msgid ""
-"indicates the direction the device is pointing to when capturing  a media. "
-"It is represented as degrees in floating point  representation, 0 means the "
-"geographic north, and increases clockwise"
-msgstr ""
-"錄製設備操作時的方向"
+msgid "indicates the direction the device is pointing to when capturing  a media. It is represented as degrees in floating point  representation, 0 means the geographic north, and increases clockwise"
+msgstr "錄製設備操作時的方向"
 
 #. TRANSLATORS: 'show name' = 'TV/radio/podcast show name' here
 msgid "show name"
@@ -732,10 +676,8 @@ msgid "show sortname"
 msgstr "顯示排序後名稱"
 
 # Wen, 怪怪的
-msgid ""
-"Name of the tv/podcast/series show the media is from, for sorting purposes"
-msgstr ""
-"排序後的媒體tv/podcat/影集名稱"
+msgid "Name of the tv/podcast/series show the media is from, for sorting purposes"
+msgstr "排序後的媒體tv/podcat/影集名稱"
 
 msgid "episode number"
 msgstr "集數編號"
@@ -764,21 +706,14 @@ msgstr "排序後的編曲者"
 msgid "grouping"
 msgstr "群組"
 
-msgid ""
-"Groups related media that spans multiple tracks, like the different pieces "
-"of a concerto. It is a higher level than a track, but lower than an album"
-msgstr ""
-"將有關聯的不同的音軌設成群組，例如一場演唱會切成不同段落。比單一音"
-"軌高階，但是比專輯低階"
+msgid "Groups related media that spans multiple tracks, like the different pieces of a concerto. It is a higher level than a track, but lower than an album"
+msgstr "將有關聯的不同的音軌設成群組，例如一場演唱會切成不同段落。比單一音軌高階，但是比專輯低階"
 
 msgid "user rating"
 msgstr "使用者評價"
 
-msgid ""
-"Rating attributed by a user. The higher the rank, the more the user likes "
-"this media"
-msgstr ""
-"使用者評價，分數愈高表示愈受歡迎"
+msgid "Rating attributed by a user. The higher the rank, the more the user likes this media"
+msgstr "使用者評價，分數愈高表示愈受歡迎"
 
 msgid "device manufacturer"
 msgstr "設備製造商"
@@ -937,12 +872,8 @@ msgid "Filter caps"
 msgstr "過濾caps"
 
 # Wen, 怪怪的
-msgid ""
-"Restrict the possible allowed capabilities (NULL means ANY). Setting this "
-"property takes a reference to the supplied GstCaps object."
-msgstr ""
-"限制允許的capabilities (NULL表示不限制)，打開該屬性將會參照"
-"GstCaps物件"
+msgid "Restrict the possible allowed capabilities (NULL means ANY). Setting this property takes a reference to the supplied GstCaps object."
+msgstr "限制允許的capabilities (NULL表示不限制)，打開該屬性將會參照GstCaps物件"
 
 msgid "No Temp directory specified."
 msgstr "未指定暫存目錄"
@@ -1071,10 +1002,8 @@ msgstr "顯示所有黑名單檔案"
 
 # Wen, 怪怪的
 msgid ""
-"Print a machine-parsable list of features the specified plugin or all "
-"plugins provide.\n"
-"                                       Useful in connection with external "
-"automatic plugin installation mechanisms"
+"Print a machine-parsable list of features the specified plugin or all plugins provide.\n"
+"                                       Useful in connection with external automatic plugin installation mechanisms"
 msgstr ""
 "從指定外掛程式或是所有外掛程式印出電腦可以分析的功能列表。\n"
 "                                       對於連結並安裝外部自動外掛程式有用"
@@ -1085,11 +1014,8 @@ msgstr "列出外掛程式內容"
 msgid "Check if the specified element or plugin exists"
 msgstr "檢查指定的element或是外掛程式是否存在"
 
-msgid ""
-"When checking if an element or plugin exists, also check that its version is "
-"at least the version specified"
-msgstr ""
-"檢查指定的element或是外掛程式是否存在時順便檢查是否為最新版本"
+msgid "When checking if an element or plugin exists, also check that its version is at least the version specified"
+msgstr "檢查指定的element或是外掛程式是否存在時順便檢查是否為最新版本"
 
 msgid "Print supported URI schemes, with the elements that implement them"
 msgstr "印出支援的URI schemes以及有實作它的elements"
@@ -1360,20 +1286,3 @@ msgstr "釋放pipeline ...\n"
 
 #~ msgid "         Trying to run anyway.\n"
 #~ msgstr "      嘗試強制執行。\n"
-
-# (abel) e.g. "Added plugin alaw with 2 features."
-#~ msgid "Added plugin %s with %d %s.\n"
-#~ msgstr "加入外掛 %s，當中有 %d 項%s。\n"
-
-#~ msgid "Rebuilding %s (%s) ...\n"
-#~ msgstr "正在重新整理 %s (%s) ...\n"
-
-#~ msgid "Trying to load %s ...\n"
-#~ msgstr "嘗試載入 %s ...\n"
-
-#~ msgid "Error loading %s\n"
-#~ msgstr "載入 %s 失敗\n"
-
-# (abel) e.g. "Loaded 146 plugins with 293 features."
-#~ msgid "Loaded %d plugins with %d %s.\n"
-#~ msgstr "載入 %d 個外掛，當中有 %d 項%s。\n"
