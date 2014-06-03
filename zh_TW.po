@@ -53,7 +53,7 @@ msgid "LEVEL"
 msgstr "LEVEL"
 
 msgid "Comma-separated list of category_name:level pairs to set specific levels for the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
-msgstr "各種類別和它們的詳細程度，格式是「分類:等級」，每個都以逗號隔開。例如：GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgstr "以逗號分隔列表中的內容，內容的格式為「分類:等級」，以此方式指定各個分類的等級。例如：GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
 msgid "LIST"
 msgstr "LIST"
@@ -246,7 +246,7 @@ msgid "No standard error message for domain %s and code %d."
 msgstr "domain %s 以及代碼 %d沒有標準的錯誤訊息。"
 
 msgid "Selected clock cannot be used in pipeline."
-msgstr "在pipeline中無法使用選擇的clock。"
+msgstr "無法在pipeline中選擇clock。"
 
 #, c-format
 msgid "Error writing registry cache to %s: %s"
@@ -514,10 +514,10 @@ msgid "version of the encoder used to encode this stream"
 msgstr "該資料串流使用的編碼器版本"
 
 msgid "serial"
-msgstr "流水號"
+msgstr "序號"
 
 msgid "serial number of track"
-msgstr "音軌的流水號"
+msgstr "音軌的序號"
 
 msgid "replaygain track gain"
 msgstr "回放增益音軌增益"
@@ -590,7 +590,7 @@ msgid "keywords"
 msgstr "關鍵字"
 
 msgid "comma separated keywords describing the content"
-msgstr "以逗號分隔的關鍵字，用來描述媒體內容"
+msgstr "關鍵字用來敘述媒體內容，關鍵字之間以逗號分開"
 
 msgid "geo location name"
 msgstr "地理位置名稱"
@@ -623,7 +623,7 @@ msgid "geo location country"
 msgstr "地理位置國家"
 
 msgid "country (english name) where the media has been recorded or produced"
-msgstr "以英文表示的媒體錄製地點國家"
+msgstr "媒體錄製的國家(英文名)"
 
 msgid "geo location city"
 msgstr "地理位置城市"
@@ -669,7 +669,7 @@ msgstr "顯示名稱"
 
 # Wen, 怪怪的
 msgid "Name of the tv/podcast/series show the media is from"
-msgstr "媒體tv/podcat/影集名稱"
+msgstr "媒體tv/podcast/影集名稱"
 
 #. TRANSLATORS: 'show sortname' = 'TV/radio/podcast show name as used for sorting purposes' here
 msgid "show sortname"
@@ -746,10 +746,10 @@ msgid "How the image should be rotated or flipped before display"
 msgstr "用來協助判斷影像播放時應該旋轉或是翻面"
 
 msgid "publisher"
-msgstr "出版者"
+msgstr "出版商"
 
 msgid "Name of the label or publisher"
-msgstr "標簽名或是出版者名稱"
+msgstr "標簽或出版商名稱"
 
 msgid "interpreted-by"
 msgstr "詮釋者"
@@ -873,7 +873,7 @@ msgstr "過濾caps"
 
 # Wen, 怪怪的
 msgid "Restrict the possible allowed capabilities (NULL means ANY). Setting this property takes a reference to the supplied GstCaps object."
-msgstr "限制允許的capabilities (NULL表示不限制)，打開該屬性將會參照GstCaps物件"
+msgstr "限制允許的capabilities (NULL表示不限制)，設定該屬性將會參照給GstCaps物件"
 
 msgid "No Temp directory specified."
 msgstr "未指定暫存目錄"
@@ -927,7 +927,7 @@ msgstr "“%s” 是一個 socket。"
 
 # Wen, 怪怪的
 msgid "Failed after iterations as requested."
-msgstr "送出重複要求後失敗"
+msgstr "重複送出請求後發生失敗"
 
 msgid "caps"
 msgstr ""
@@ -1005,8 +1005,8 @@ msgid ""
 "Print a machine-parsable list of features the specified plugin or all plugins provide.\n"
 "                                       Useful in connection with external automatic plugin installation mechanisms"
 msgstr ""
-"從指定外掛程式或是所有外掛程式印出電腦可以分析的功能列表。\n"
-"                                       對於連結並安裝外部自動外掛程式有用"
+"印出一份電腦可分析的功能列表，從指定外掛程式或是所有外掛程式中取得。\n"
+"                                       在連結和自動安裝外部的外掛是有用的"
 
 msgid "List the plugin contents"
 msgstr "列出外掛程式內容"
