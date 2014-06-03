@@ -948,7 +948,7 @@ msgid "Stream contains no data."
 msgstr "資料串流中沒有資料"
 
 msgid "Implemented Interfaces:\n"
-msgstr "實作介面："
+msgstr "實作介面：\n"
 
 msgid "readable"
 msgstr "可讀"
@@ -1022,7 +1022,7 @@ msgstr "印出支援的URI schemes以及有實作它的elements"
 
 #, c-format
 msgid "Could not load plugin file: %s\n"
-msgstr "無法再入外掛程式檔案： “%s”"
+msgstr "無法再入外掛程式檔案： “%s”\n"
 
 #, c-format
 msgid "No such element or plugin '%s'\n"
@@ -1123,7 +1123,7 @@ msgstr "進度：(%s) %s\n"
 
 #, c-format
 msgid "Missing element: %s\n"
-msgstr "“%s” element不存在"
+msgstr "“%s” element不存在\n"
 
 #, c-format
 msgid "Got context from element '%s': %s=%s\n"
@@ -1180,10 +1180,10 @@ msgid "ERROR: Pipeline doesn't want to pause.\n"
 msgstr "錯誤：Pipeline 不想要暫停。\n"
 
 msgid "Pipeline is live and does not need PREROLL ...\n"
-msgstr "Pipepline可以正常運動，不需要緩衝 ..."
+msgstr "Pipepline可以正常運動，不需要緩衝 ...\n"
 
 msgid "Pipeline is PREROLLING ...\n"
-msgstr "Pipeline正在緩衝 ..."
+msgstr "Pipeline正在緩衝 ...\n"
 
 msgid "ERROR: pipeline doesn't want to preroll.\n"
 msgstr "錯誤：Pipeline 不想要緩衝。\n"
