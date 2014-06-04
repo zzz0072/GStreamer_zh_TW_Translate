@@ -50,7 +50,7 @@ msgid "Default debug level from 1 (only error) to 9 (anything) or 0 for no outpu
 msgstr "將預設偵錯等級設定為 1 (只顯示錯誤) 至 9 (任何訊息)，或者用 0 表示不顯示訊息"
 
 msgid "LEVEL"
-msgstr "LEVEL"
+msgstr ""
 
 msgid "Comma-separated list of category_name:level pairs to set specific levels for the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 msgstr "各種類別和它們的詳細程度，格式是「分類:等級」，每個都以逗號隔開。例如：GST_AUTOPLUG:5,GST_ELEMENT_*:3"
@@ -77,7 +77,7 @@ msgid "PATHS"
 msgstr "路徑"
 
 msgid "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH"
-msgstr "除了環境變數 GST_PLUGIN_PATH 中指定的外掛之外，再指定要載入的外掛 (以逗號分隔)"
+msgstr "除了有輸入環境變數 GST_PLUGIN_PATH 的外掛之外，所有以逗號分隔的外掛清單都會被預載"
 
 msgid "PLUGINS"
 msgstr "外掛程式"
