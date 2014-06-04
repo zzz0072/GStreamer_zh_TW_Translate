@@ -56,7 +56,7 @@ msgid "Comma-separated list of category_name:level pairs to set specific levels 
 msgstr "各種類別和它們的詳細程度，格式是「分類:等級」，每個都以逗號隔開。例如：GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
 msgid "LIST"
-msgstr "LIST"
+msgstr ""
 
 msgid "Disable colored debugging output"
 msgstr "偵錯結果不顯示顏色"
