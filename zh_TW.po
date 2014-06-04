@@ -77,7 +77,7 @@ msgid "PATHS"
 msgstr "路徑"
 
 msgid "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH"
-msgstr "除了有輸入環境變數 GST_PLUGIN_PATH 的外掛之外，所有以逗號分隔的外掛清單都會被預載"
+msgstr "除了有輸入環境變數 GST_PLUGIN_PATH 的外掛程式之外，所有以逗號分隔的外掛程式清單都會被預載"
 
 msgid "PLUGINS"
 msgstr "外掛程式"
