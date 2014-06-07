@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: gstreamer 0.8.8\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-05-25 16:08+0100\n"
-"PO-Revision-Date: 2014-06-03 16:14+0800\n"
+"PO-Revision-Date: 2014-06-08 00:22+0800\n"
 "Last-Translator: Wen Liao <wen.cf83@gmail.com>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -236,7 +236,7 @@ msgstr "資料串流已加密，但是目前不支援解密。"
 msgid "The stream is encrypted and can't be decrypted because no suitable key has been supplied."
 msgstr "資料串流已加密，但是沒有適當的金鑰因而無法解密。"
 
-# Wen, 怪怪的？
+# Wen, 怪怪的？Domain意義不明。
 #, c-format
 msgid "No error message for domain %s."
 msgstr "domain %s沒有可用的錯誤訊息。"
@@ -433,7 +433,6 @@ msgstr "演出者"
 msgid "composer"
 msgstr "作曲者"
 
-# Wen, 怪怪的
 msgid "person(s) who composed the recording"
 msgstr "作曲者"
 
@@ -667,17 +666,15 @@ msgstr "錄製設備操作時的方向"
 msgid "show name"
 msgstr "顯示名稱"
 
-# Wen, 怪怪的
 msgid "Name of the tv/podcast/series show the media is from"
-msgstr "媒體tv/podcast/影集名稱"
+msgstr "tv/podcast/影集中媒體的名稱"
 
 #. TRANSLATORS: 'show sortname' = 'TV/radio/podcast show name as used for sorting purposes' here
 msgid "show sortname"
 msgstr "顯示排序後名稱"
 
-# Wen, 怪怪的
 msgid "Name of the tv/podcast/series show the media is from, for sorting purposes"
-msgstr "排序後的媒體tv/podcat/影集名稱"
+msgstr "排序後的tv/podcast/影集中媒體的名稱"
 
 msgid "episode number"
 msgstr "集數編號"
@@ -901,7 +898,6 @@ msgstr "無法開啟 “%s” 檔案來寫入內容。"
 msgid "Error closing file \"%s\"."
 msgstr "關閉檔案 “%s” 時發生錯誤。"
 
-# Wen, 怪怪的, seek不能翻成搜尋，暫時找不到好的對應名詞
 #, c-format
 msgid "Error while seeking in file \"%s\"."
 msgstr "對檔案 “%s” 定位時發生錯誤。"
@@ -1051,19 +1047,17 @@ msgstr "收到訊息 #%u (%s):"
 msgid "Got EOS from element \"%s\".\n"
 msgstr "從element \"%s\" 中得到EOS通知\n"
 
-# Wen, 怪怪的, 語句不順
 #, c-format
 msgid "FOUND TAG      : found by element \"%s\".\n"
-msgstr "找到標籤      : 從element \"%s\"。\n"
+msgstr "找到標籤      : 由element \"%s\"找到。\n"
 
-# Wen, 怪怪的, 語句不順
 #, c-format
 msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
-msgstr "找到標籤      : 從pad \"%s:%s\"。\n"
+msgstr "找到標籤      : 由pad \"%s:%s\"找到。\n"
 
 #, c-format
 msgid "FOUND TAG      : found by object \"%s\".\n"
-msgstr "找到標籤      : 從物件 \"%s\"。\n"
+msgstr "找到標籤      : 由從物件 \"%s\"找到。\n"
 
 msgid "FOUND TAG\n"
 msgstr "找到標籤\n"
@@ -1091,7 +1085,7 @@ msgstr ""
 msgid "WARNING: from element %s: %s\n"
 msgstr "警告：來自element %s ：%s\n"
 
-# Wen, 怪怪的, 如何精確區分preroll和buffer
+# Wen, 怪怪的, 如何精確區分preroll和buffer?
 msgid "Prerolled, waiting for buffering to finish...\n"
 msgstr "緩衝中，等待緩衝完成...\n"
 
