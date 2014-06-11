@@ -2,6 +2,9 @@
 # This file is put in the public domain.
 # Abel Cheung <abelcheung@gmail.com>, 2005.
 # Wen Liao <wen.cf83@gmail.com>, 2014
+# Blues Wang <a6161619@gmail.com>, 2014
+# William Huang <chobits5468@gmail.com>, 2014
+
 # Terms sync-up:
 # plugin: 外掛程式
 # log: 日誌
